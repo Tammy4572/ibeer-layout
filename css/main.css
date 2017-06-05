@@ -1,0 +1,227 @@
+*, *: before *:after{
+  box-sizing: : border-box;
+}
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body{
+  width: 1280px;
+  font-family: 'Noto Serif';
+  font-size: 21px;
+  /*background-position: center center;*/
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.25em;
+}
+nav{
+  background-color: #2E3D2B;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+nav ul.nav-row{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  font-family: 'Josefin Sans';
+  list-style-type: none;
+}
+li.nav-item a{
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 135px;
+  margin-right: 125px;
+  text-decoration: none;
+}
+.fa-facebook{
+  font-size: x-large;
+}
+.page-header{
+  background-image: url('../img/header-img.jpg');
+  background-size: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.header-content{
+  text-align: center;
+}
+.main-heading{
+  font-family: 'Josefin Sans';
+  font-size: 120px;
+  color: #2E2D2B;
+  padding-top: 146px;
+}
+.sub-heading{
+  color: #fff;
+  font-size: 60px;
+  font-family: 'Dancing Script';
+  text-shadow: 2px 2px 3px #000;
+  margin-top: 25px;
+}
+main{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  width: 1150px;
+  background-color: #FEF9EC;
+  margin-top: -75px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.blog-row{
+  background-color: #FEF9EC;
+  -webkit-flex-direction: column;
+  top: 400px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  z-index: 1;
+}
+.item{
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+  height: 500px;
+  padding: 25px;
+  margin-bottom: 25px;
+  background-color: #fff;
+  box-shadow: inset -8px 0 10px -6px #ddd;
+  position: relative;
+  overflow: auto;
+}
+.item > .icon-wrapper {
+  position: absolute;
+  left: 46%;
+  top: 10%;
+  background-color: #efeadf;
+  color: #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  font-size: xx-large;
+}
+.fa-flask{
+  position: relative;
+  left: 20%;
+}
+.fa-newspaper-o{
+  position: relative;
+  left: 20%;
+}
+.fa-plane{
+  position: relative;
+  left: 20%;
+}
+
+.meta{
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Josefin Sans';
+  justify-content: space-between;
+  flex: 1 100%;
+  margin: 33px 0px;
+  box-shadow: 0px 2px 0px 0px rgba(169,169,169,0.2);
+}
+.meta > div{
+  display: block;
+  flex-wrap: nowrap;
+  flex: 1 40%;
+  align-items: center;
+  vertical-align: middle;
+}
+.entry-title{
+  display: inline-block;
+  flex-direction: row;
+  flex: 1 100%;
+  font-family: 'Josefin Sans';
+  font-size: 30px;
+}
+h4.entry-title{
+  height: 30px;
+  flex: 1 100%;
+}
+.blog-img{
+  width: 16rem;
+  height: 16rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  align-content: flex-end;
+}
+div.item p{
+  margin-right: auto;
+}
+
+#dino{
+  background-image: url('../img/dino.jpg');
+}
+div #xx.blog-img{
+  background-image: url('../img/xx.png');
+
+}
+#yhact-img{
+  background-image: url('../img/yhact.jpg');
+
+}
+
+aside{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ border-radius: 3px;
+ padding: 3%;
+ margin-top: 25px;
+ margin-right: 43px;
+ margin-left: 11px;
+ margin-bottom: 500px;
+ line-height: 2.0em;
+ background-color: #EFEADF;
+}
+aside > .auth-pic{
+  height: 250px;
+  width: 250px;
+  padding: 10%;
+  border-radius: 50%;
+  background-image: url('../img/author.jpeg');
+  background-repeat: no-repeat;
+}
+
+aside > .aside-heading{
+  font-size: 35px;
+  font-family: 'Josefin Sans';
+  align-items: stretch;
+  text-align: center;
+  margin: 30px auto;
+
+}
+aside p#bio.primary-txt{
+  border-top: 2px #696969 solid;
+}
+aside > .primary-txt:nth-child(2){
+  line-height: 2.2em;
+  font-family: 'Noto Serif';
+  font-size: 18px;
+  text-align: left;
+}
+footer{
+  margin-top: 75px;
+  background-color: #2E2D2B;
+  height: 60px;
+  width: auto;
+  color: #fff;
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
