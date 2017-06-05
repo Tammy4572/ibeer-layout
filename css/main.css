@@ -151,12 +151,12 @@ h4.entry-title{
   flex: 1 100%;
 }
 .blog-img{
-  width: 16rem;
-  height: 16rem;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: auto;
-  align-content: flex-end;
+  float: right;
+  height: 16rem;
+  padding: 0 0 1rem 1rem;
+  width: 16rem;
 }
 div.item p{
   margin-right: auto;
@@ -167,7 +167,7 @@ div.item p{
 }
 div #xx.blog-img{
   background-image: url('../img/xx.png');
-
+  padding-right: 35px;
 }
 #yhact-img{
   background-image: url('../img/yhact.jpg');
